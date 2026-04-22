@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Glysa';
+  src: url('./assets/fonts/Glysa.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('./assets/fonts/LexendDeca-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+  --bg-default: #141414;
+  --bg-1: #1E1E1E;
+  --bg-2: #282828;
+  --bg-3: #333333;
+  
+  --primary-100: #FFFFFF;
+  --primary-60: rgba(255, 255, 255, 0.56); 
+  --warning: #FF4D4D;
+
+  --font-heading: 'Glysa', serif;
+  --font-body: 'Lexend Deca', sans-serif;
+}
+
+body {
+  background-color: var(--bg-default);
+  color: var(--primary-100);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1, .text-h1 {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2, .text-h2 {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+h3, .text-h3 {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p, .text-body {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-muted {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--primary-60);
+}

@@ -1,0 +1,12 @@
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.DS_Store
+*.db-shm
+*.db-wal
